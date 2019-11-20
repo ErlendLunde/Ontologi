@@ -1,0 +1,2781 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/47902/ontologies/2019/8/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/47902/ontologies/2019/8/untitled-ontology-5">
+    <Prefix name="" IRI="http://www.semanticweb.org/47902/ontologies/2019/8/untitled-ontology-5"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Alcoholic_beverages"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aquavit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bourbon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cognac"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fortified_wine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fruit_wine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lands"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Light_ale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Light_lager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Liqour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Monastery_style"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pale_ale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Porter_stout"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Red_wine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rosè_wine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Saison_farmhouse_ale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scotch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sparkling_wine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Special"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vodka"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wheat_beer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Whiskey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#White_wine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/R7xvMm6KH7eyZySftZ4c0oG"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RBVMdECIshy9AOJMV1DzxrA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Comes_from"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://webprotege.stanford.edu/R7nsj9cgCDlbHOhmtIfyuaI"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://webprotege.stanford.edu/R96LxH1ZEpi3nRGpA52nGci"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://webprotege.stanford.edu/RD0dG30CEQQ8526DYKtAlzA"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Price"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R59GUhTfxhtT6l5Hr8MIdT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R6Q5vAXXk6YZ8OtkR40mqI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R6uagAgyX4jv7iav3OySVV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R70zBltd4ddyCQ8bYahiA9r"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R71laDNmsRoneJrVwjLPQbB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R72fbNE1KA02oPASdSKWm5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R78CZPAOQWrBFLZq9LaEv70"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7M9oohfAMHh1iwOYa1UL3b"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7QXqaEYZmsSpWhi3BfrE4Z"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7SdLZqJeFIcmZmvbgCTYEh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7aACIqwcp3J8c3BDgVket4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7l3h4HsR6yhvksKAlNZQbo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7mXksDdmqes1xhANl4TLXG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7o7f7bDM3dfhr5KVK0p5eN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7r4jMh8e3Irk7EXiU7NBQH"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7tR6Z8Lvwtu9U5JzXKtBp8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R81oe6Og4V6J8Bg0Z1fIXqe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R88MMoID88veLamr67ZN6v2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8E35kowKjfFlxzxAO5eF3L"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8E5wUu4A7oG9CEt2RdLM5F"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8e6ZT0qgLRHsNn8OkJVT0w"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8jZxcjXcK77FIoXelRGqtN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8pr3Ro8IlruptCOaK1pYOh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8u5Ls6WkbrW2uKp7rY3S80"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R94p49DAyA9cZa8Zlz1hUzw"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R994P74kYBsL4w6Eb2hzD3P"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9K78haFjguW8K031DvvCy2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9L06J6AiwPyMOwQsOt0Lid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9THVA6UWiHSYa7uuNmBMDr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9UeGUInex2Ytv2gqN5t2pA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9YIHmKVnFBN777QIeAkryv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9mMlXK8mrngfmeMiDAMWD9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RB1nTos4Fzu8lUpFisqSmx5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RB1sVn9OF2y5SqSe6AJo7fJ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RB5IO5u7fkpYRZPkUoVhnOy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RB7sXYOxbuZK3iUMtnhSbt5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBF3NxLBrmeMbUslEYPP4ca"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBIK7wireRWbN4LdzebvrKO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBNysvmCwdGsvLxYJ2OPUrz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBPAIAEPDyZmSxOe5V3fnnM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBTwk28oETYCkdDURuq4m1h"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBcM7K8zDlmxvQD3fgVHGiA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBj5G3swuV34xK11cNk9Ngh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBurZRDnd5AelioRq1DCYpC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RByAUC05frEyIToRFPVwPLT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RC0BP1y4oxYEfXiLWpIMews"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RC8riNx2TxpaTA9UAWu82GT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCFHdWttDSSol0KCQ7SB3qa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCJhfnqA2CbRueTnZBnalae"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCKRCYXAv8PYa5cEzRLXj86"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCOLV1j6jDLdaKIZCd8Uu9k"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCVN2XEsB6QgLcSfkWHy7KW"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCWsSIOgTvxcuvTxVlM4yi6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCjuEQhvL0meRIrCoDcah1m"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCmi5F2d2KCLpUXD1ah9ATH"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCqJMm89BiioCRv4gGVLXK"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCrMMJW1kiBmsdo2M7Swvme"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCvpiuMdPwjm1iYvCpWL5Dd"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RD2KLuE4Hw8ncCOiq4E7LS9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDAUPyiRRuOWsy6qGBjhRal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDGSp5ZiOz8hAe3fMrZSGXS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDGnKD0XiehcQexd5y8gO2z"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDLyBIFfEgbwUrgRUCFblRk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDMtfQ3rDSoWgTgktDHxGnf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDNND3hr2iCyqA10GG4W7LO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDewqseyfQrL9cAkINcU2T9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDjcYhhgsR76vC9tDPLTL1F"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDlEJhDl0rQmn6xSw5Xtqi5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDqgaF24x91xQgaw24E8xHx"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDs7McnRvfznwyQbmGQ31gx"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDvAGbvlXHB8Oh7UXDT1y19"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDymnJtNyl9AFnowYP1mgEE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RFLaPDGSqCvzEmoelBLCVy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RGMIE3IUC8MHCllV9ZB1By"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RHo8NLNbRTH3d1bcx6DwYV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RIXMkP3GcJzwI2LFcBitXU"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RLEvePGeBVTbjGf3VQCMSG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RUIHBuAwt60Pe46t0LTtab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RXKqW9E301hjPf8kZlMc8y"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RZ4lQqxG7udC6wnNPZvX7m"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RZYPO42TtTMPCbECLiYizp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/Rh3v5QtneFiXIkOMcpjB5o"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RhU1pW9d85haehz4AKiJvf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/Ri2vizkiBYevNVP26r9sW3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/Rn7qKrMzOSBrwbnYNhxBJx"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/Rph60nCXi1tvqsAhWoJ16k"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RrpTXl1cKobfRFecjaXNJ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/Rug987h8X4v2VgwBVgpx7P"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RvRb72pRlHIpbJBEUhUZK9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RvVTjFCGQt0VHX5RbTueJi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bulleit_Kentucky_Straight_Bourbon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Caol_Ila_12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Islai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kentucky"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Scotland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#USA"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Alcoholic_beverages"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aquavit"/>
+        <Class IRI="#Liqour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beer"/>
+        <Class IRI="#Alcoholic_beverages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bourbon"/>
+        <Class IRI="#Whiskey"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cognac"/>
+        <Class IRI="#Liqour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cognac"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+            <NamedIndividual IRI="http://webprotege.stanford.edu/RCVN2XEsB6QgLcSfkWHy7KW"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fortified_wine"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fruit_wine"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gin"/>
+        <Class IRI="#Liqour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Light_ale"/>
+        <Class IRI="#Beer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Light_lager"/>
+        <Class IRI="#Beer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Liqour"/>
+        <Class IRI="#Alcoholic_beverages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monastery_style"/>
+        <Class IRI="#Beer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pale_ale"/>
+        <Class IRI="#Beer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Porter_stout"/>
+        <Class IRI="#Beer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Red_wine"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regions"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rosè_wine"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rum"/>
+        <Class IRI="#Liqour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Saison_farmhouse_ale"/>
+        <Class IRI="#Beer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scotch"/>
+        <Class IRI="#Whiskey"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sparkling_wine"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Special"/>
+        <Class IRI="#Beer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vodka"/>
+        <Class IRI="#Liqour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wheat_beer"/>
+        <Class IRI="#Beer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Whiskey"/>
+        <Class IRI="#Liqour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White_wine"/>
+        <Class IRI="#Wine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wine"/>
+        <Class IRI="#Alcoholic_beverages"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Regions"/>
+        <Class IRI="#Whiskey"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Regions"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R59GUhTfxhtT6l5Hr8MIdT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cognac"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R6Q5vAXXk6YZ8OtkR40mqI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wheat_beer"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R6uagAgyX4jv7iav3OySVV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sparkling_wine"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R70zBltd4ddyCQ8bYahiA9r"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regions"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R71laDNmsRoneJrVwjLPQbB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wheat_beer"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R72fbNE1KA02oPASdSKWm5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lands"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R78CZPAOQWrBFLZq9LaEv70"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lands"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7M9oohfAMHh1iwOYa1UL3b"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aquavit"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7QXqaEYZmsSpWhi3BfrE4Z"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Scotch"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7SdLZqJeFIcmZmvbgCTYEh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lands"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7aACIqwcp3J8c3BDgVket4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lands"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7l3h4HsR6yhvksKAlNZQbo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Red_wine"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7mXksDdmqes1xhANl4TLXG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Monastery_style"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7o7f7bDM3dfhr5KVK0p5eN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regions"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7r4jMh8e3Irk7EXiU7NBQH"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cognac"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7tR6Z8Lvwtu9U5JzXKtBp8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#White_wine"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R81oe6Og4V6J8Bg0Z1fIXqe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regions"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R88MMoID88veLamr67ZN6v2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Porter_stout"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8E35kowKjfFlxzxAO5eF3L"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sparkling_wine"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8E5wUu4A7oG9CEt2RdLM5F"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#White_wine"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8e6ZT0qgLRHsNn8OkJVT0w"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sparkling_wine"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8jZxcjXcK77FIoXelRGqtN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lands"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8pr3Ro8IlruptCOaK1pYOh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Red_wine"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8u5Ls6WkbrW2uKp7rY3S80"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lands"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R94p49DAyA9cZa8Zlz1hUzw"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regions"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R994P74kYBsL4w6Eb2hzD3P"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rosè_wine"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9K78haFjguW8K031DvvCy2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#White_wine"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9L06J6AiwPyMOwQsOt0Lid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Red_wine"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9THVA6UWiHSYa7uuNmBMDr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rum"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9UeGUInex2Ytv2gqN5t2pA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lands"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9YIHmKVnFBN777QIeAkryv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rum"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9mMlXK8mrngfmeMiDAMWD9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regions"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RB1nTos4Fzu8lUpFisqSmx5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cognac"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RB1sVn9OF2y5SqSe6AJo7fJ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Special"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RB5IO5u7fkpYRZPkUoVhnOy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regions"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RB7sXYOxbuZK3iUMtnhSbt5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rum"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBF3NxLBrmeMbUslEYPP4ca"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Monastery_style"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBIK7wireRWbN4LdzebvrKO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lands"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBNysvmCwdGsvLxYJ2OPUrz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Red_wine"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBPAIAEPDyZmSxOe5V3fnnM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lands"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBTwk28oETYCkdDURuq4m1h"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Light_ale"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBcM7K8zDlmxvQD3fgVHGiA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lands"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBj5G3swuV34xK11cNk9Ngh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Porter_stout"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBurZRDnd5AelioRq1DCYpC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Scotch"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RByAUC05frEyIToRFPVwPLT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lands"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RC0BP1y4oxYEfXiLWpIMews"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vodka"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RC8riNx2TxpaTA9UAWu82GT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regions"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCFHdWttDSSol0KCQ7SB3qa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rum"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCJhfnqA2CbRueTnZBnalae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gin"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCKRCYXAv8PYa5cEzRLXj86"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wheat_beer"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCOLV1j6jDLdaKIZCd8Uu9k"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lands"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCVN2XEsB6QgLcSfkWHy7KW"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rosè_wine"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCWsSIOgTvxcuvTxVlM4yi6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rum"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCjuEQhvL0meRIrCoDcah1m"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#White_wine"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCmi5F2d2KCLpUXD1ah9ATH"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regions"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCqJMm89BiioCRv4gGVLXK"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Scotch"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCrMMJW1kiBmsdo2M7Swvme"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Light_ale"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCvpiuMdPwjm1iYvCpWL5Dd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lands"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RD2KLuE4Hw8ncCOiq4E7LS9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Special"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDAUPyiRRuOWsy6qGBjhRal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lands"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDGSp5ZiOz8hAe3fMrZSGXS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gin"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDGnKD0XiehcQexd5y8gO2z"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cognac"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDLyBIFfEgbwUrgRUCFblRk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pale_ale"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDMtfQ3rDSoWgTgktDHxGnf"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pale_ale"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDNND3hr2iCyqA10GG4W7LO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wheat_beer"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDewqseyfQrL9cAkINcU2T9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lands"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDjcYhhgsR76vC9tDPLTL1F"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Light_lager"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDlEJhDl0rQmn6xSw5Xtqi5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison_farmhouse_ale"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDqgaF24x91xQgaw24E8xHx"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cognac"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDs7McnRvfznwyQbmGQ31gx"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Light_lager"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDvAGbvlXHB8Oh7UXDT1y19"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lands"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDymnJtNyl9AFnowYP1mgEE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lands"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RFLaPDGSqCvzEmoelBLCVy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regions"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RGMIE3IUC8MHCllV9ZB1By"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Light_lager"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RHo8NLNbRTH3d1bcx6DwYV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gin"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RIXMkP3GcJzwI2LFcBitXU"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Red_wine"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RLEvePGeBVTbjGf3VQCMSG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fortified_wine"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RUIHBuAwt60Pe46t0LTtab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lands"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RXKqW9E301hjPf8kZlMc8y"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Porter_stout"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RZ4lQqxG7udC6wnNPZvX7m"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pale_ale"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RZYPO42TtTMPCbECLiYizp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fortified_wine"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/Rh3v5QtneFiXIkOMcpjB5o"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rum"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RhU1pW9d85haehz4AKiJvf"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Light_ale"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/Ri2vizkiBYevNVP26r9sW3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gin"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/Rn7qKrMzOSBrwbnYNhxBJx"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regions"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/Rph60nCXi1tvqsAhWoJ16k"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#White_wine"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RrpTXl1cKobfRFecjaXNJ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cognac"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/Rug987h8X4v2VgwBVgpx7P"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regions"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RvRb72pRlHIpbJBEUhUZK9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Monastery_style"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RvVTjFCGQt0VHX5RbTueJi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bourbon"/>
+        <NamedIndividual IRI="#Bulleit_Kentucky_Straight_Bourbon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Scotch"/>
+        <NamedIndividual IRI="#Caol_Ila_12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regions"/>
+        <NamedIndividual IRI="#Islai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Regions"/>
+        <NamedIndividual IRI="#Kentucky"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lands"/>
+        <NamedIndividual IRI="#Scotland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lands"/>
+        <NamedIndividual IRI="#USA"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/R7xvMm6KH7eyZySftZ4c0oG"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R59GUhTfxhtT6l5Hr8MIdT"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCVN2XEsB6QgLcSfkWHy7KW"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R6uagAgyX4jv7iav3OySVV"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBTwk28oETYCkdDURuq4m1h"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R70zBltd4ddyCQ8bYahiA9r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBj5G3swuV34xK11cNk9Ngh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Comes_from"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R70zBltd4ddyCQ8bYahiA9r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RGMIE3IUC8MHCllV9ZB1By"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/R7xvMm6KH7eyZySftZ4c0oG"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R71laDNmsRoneJrVwjLPQbB"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCVN2XEsB6QgLcSfkWHy7KW"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R72fbNE1KA02oPASdSKWm5"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBTwk28oETYCkdDURuq4m1h"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7QXqaEYZmsSpWhi3BfrE4Z"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBTwk28oETYCkdDURuq4m1h"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7SdLZqJeFIcmZmvbgCTYEh"/>
+        <NamedIndividual IRI="#Scotland"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Comes_from"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7SdLZqJeFIcmZmvbgCTYEh"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RvRb72pRlHIpbJBEUhUZK9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7mXksDdmqes1xhANl4TLXG"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBj5G3swuV34xK11cNk9Ngh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Comes_from"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7mXksDdmqes1xhANl4TLXG"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R71laDNmsRoneJrVwjLPQbB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7o7f7bDM3dfhr5KVK0p5eN"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDjcYhhgsR76vC9tDPLTL1F"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/R7xvMm6KH7eyZySftZ4c0oG"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7r4jMh8e3Irk7EXiU7NBQH"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCVN2XEsB6QgLcSfkWHy7KW"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R81oe6Og4V6J8Bg0Z1fIXqe"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCVN2XEsB6QgLcSfkWHy7KW"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Comes_from"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R81oe6Og4V6J8Bg0Z1fIXqe"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R59GUhTfxhtT6l5Hr8MIdT"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8E35kowKjfFlxzxAO5eF3L"/>
+        <NamedIndividual IRI="#USA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8E5wUu4A7oG9CEt2RdLM5F"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBNysvmCwdGsvLxYJ2OPUrz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8e6ZT0qgLRHsNn8OkJVT0w"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RXKqW9E301hjPf8kZlMc8y"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Comes_from"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8e6ZT0qgLRHsNn8OkJVT0w"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R88MMoID88veLamr67ZN6v2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8jZxcjXcK77FIoXelRGqtN"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCVN2XEsB6QgLcSfkWHy7KW"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Comes_from"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8jZxcjXcK77FIoXelRGqtN"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7r4jMh8e3Irk7EXiU7NBQH"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8u5Ls6WkbrW2uKp7rY3S80"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBj5G3swuV34xK11cNk9Ngh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Comes_from"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8u5Ls6WkbrW2uKp7rY3S80"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCqJMm89BiioCRv4gGVLXK"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9K78haFjguW8K031DvvCy2"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7aACIqwcp3J8c3BDgVket4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9L06J6AiwPyMOwQsOt0Lid"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RXKqW9E301hjPf8kZlMc8y"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Comes_from"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9L06J6AiwPyMOwQsOt0Lid"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RB1nTos4Fzu8lUpFisqSmx5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9THVA6UWiHSYa7uuNmBMDr"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDymnJtNyl9AFnowYP1mgEE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9UeGUInex2Ytv2gqN5t2pA"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7M9oohfAMHh1iwOYa1UL3b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9mMlXK8mrngfmeMiDAMWD9"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RC0BP1y4oxYEfXiLWpIMews"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RB5IO5u7fkpYRZPkUoVhnOy"/>
+        <NamedIndividual IRI="#USA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Comes_from"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RB5IO5u7fkpYRZPkUoVhnOy"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCFHdWttDSSol0KCQ7SB3qa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/R7xvMm6KH7eyZySftZ4c0oG"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RB7sXYOxbuZK3iUMtnhSbt5"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBTwk28oETYCkdDURuq4m1h"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBF3NxLBrmeMbUslEYPP4ca"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RD2KLuE4Hw8ncCOiq4E7LS9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBIK7wireRWbN4LdzebvrKO"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDjcYhhgsR76vC9tDPLTL1F"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBPAIAEPDyZmSxOe5V3fnnM"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDymnJtNyl9AFnowYP1mgEE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBcM7K8zDlmxvQD3fgVHGiA"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDjcYhhgsR76vC9tDPLTL1F"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBurZRDnd5AelioRq1DCYpC"/>
+        <NamedIndividual IRI="#Scotland"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RByAUC05frEyIToRFPVwPLT"/>
+        <NamedIndividual IRI="#Scotland"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Comes_from"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RByAUC05frEyIToRFPVwPLT"/>
+        <NamedIndividual IRI="#Islai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RC8riNx2TxpaTA9UAWu82GT"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBTwk28oETYCkdDURuq4m1h"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/R7xvMm6KH7eyZySftZ4c0oG"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCFHdWttDSSol0KCQ7SB3qa"/>
+        <NamedIndividual IRI="#USA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCJhfnqA2CbRueTnZBnalae"/>
+        <NamedIndividual IRI="#USA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCKRCYXAv8PYa5cEzRLXj86"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7M9oohfAMHh1iwOYa1UL3b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCOLV1j6jDLdaKIZCd8Uu9k"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RXKqW9E301hjPf8kZlMc8y"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCWsSIOgTvxcuvTxVlM4yi6"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDymnJtNyl9AFnowYP1mgEE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCjuEQhvL0meRIrCoDcah1m"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RC0BP1y4oxYEfXiLWpIMews"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCmi5F2d2KCLpUXD1ah9ATH"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBj5G3swuV34xK11cNk9Ngh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Comes_from"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCmi5F2d2KCLpUXD1ah9ATH"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R994P74kYBsL4w6Eb2hzD3P"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/R7xvMm6KH7eyZySftZ4c0oG"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCqJMm89BiioCRv4gGVLXK"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCVN2XEsB6QgLcSfkWHy7KW"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCrMMJW1kiBmsdo2M7Swvme"/>
+        <NamedIndividual IRI="#Scotland"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Comes_from"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCrMMJW1kiBmsdo2M7Swvme"/>
+        <NamedIndividual IRI="#Islai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCvpiuMdPwjm1iYvCpWL5Dd"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RXKqW9E301hjPf8kZlMc8y"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDAUPyiRRuOWsy6qGBjhRal"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBTwk28oETYCkdDURuq4m1h"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Comes_from"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDAUPyiRRuOWsy6qGBjhRal"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RB7sXYOxbuZK3iUMtnhSbt5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDGnKD0XiehcQexd5y8gO2z"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R78CZPAOQWrBFLZq9LaEv70"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDMtfQ3rDSoWgTgktDHxGnf"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7M9oohfAMHh1iwOYa1UL3b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDNND3hr2iCyqA10GG4W7LO"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R94p49DAyA9cZa8Zlz1hUzw"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDewqseyfQrL9cAkINcU2T9"/>
+        <NamedIndividual IRI="#USA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDlEJhDl0rQmn6xSw5Xtqi5"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCVN2XEsB6QgLcSfkWHy7KW"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDqgaF24x91xQgaw24E8xHx"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBTwk28oETYCkdDURuq4m1h"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDvAGbvlXHB8Oh7UXDT1y19"/>
+        <NamedIndividual IRI="#USA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/R7xvMm6KH7eyZySftZ4c0oG"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RGMIE3IUC8MHCllV9ZB1By"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBj5G3swuV34xK11cNk9Ngh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RHo8NLNbRTH3d1bcx6DwYV"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7M9oohfAMHh1iwOYa1UL3b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RIXMkP3GcJzwI2LFcBitXU"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8pr3Ro8IlruptCOaK1pYOh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RLEvePGeBVTbjGf3VQCMSG"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBj5G3swuV34xK11cNk9Ngh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Comes_from"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RLEvePGeBVTbjGf3VQCMSG"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R71laDNmsRoneJrVwjLPQbB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RUIHBuAwt60Pe46t0LTtab"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBj5G3swuV34xK11cNk9Ngh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RZ4lQqxG7udC6wnNPZvX7m"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBTwk28oETYCkdDURuq4m1h"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RZYPO42TtTMPCbECLiYizp"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDGSp5ZiOz8hAe3fMrZSGXS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RhU1pW9d85haehz4AKiJvf"/>
+        <NamedIndividual IRI="#USA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/Ri2vizkiBYevNVP26r9sW3"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBTwk28oETYCkdDURuq4m1h"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/Rn7qKrMzOSBrwbnYNhxBJx"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7M9oohfAMHh1iwOYa1UL3b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/R7xvMm6KH7eyZySftZ4c0oG"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/Rph60nCXi1tvqsAhWoJ16k"/>
+        <NamedIndividual IRI="#Scotland"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RrpTXl1cKobfRFecjaXNJ"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCVN2XEsB6QgLcSfkWHy7KW"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Comes_from"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RrpTXl1cKobfRFecjaXNJ"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R71laDNmsRoneJrVwjLPQbB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/R7xvMm6KH7eyZySftZ4c0oG"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RvRb72pRlHIpbJBEUhUZK9"/>
+        <NamedIndividual IRI="#Scotland"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RvVTjFCGQt0VHX5RbTueJi"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9YIHmKVnFBN777QIeAkryv"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="#Bulleit_Kentucky_Straight_Bourbon"/>
+        <NamedIndividual IRI="#USA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Comes_from"/>
+        <NamedIndividual IRI="#Bulleit_Kentucky_Straight_Bourbon"/>
+        <NamedIndividual IRI="#Kentucky"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <NamedIndividual IRI="#Caol_Ila_12"/>
+        <NamedIndividual IRI="#Scotland"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Comes_from"/>
+        <NamedIndividual IRI="#Caol_Ila_12"/>
+        <NamedIndividual IRI="#Islai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/R7xvMm6KH7eyZySftZ4c0oG"/>
+        <NamedIndividual IRI="#Islai"/>
+        <NamedIndividual IRI="#Scotland"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/R7xvMm6KH7eyZySftZ4c0oG"/>
+        <NamedIndividual IRI="#Kentucky"/>
+        <NamedIndividual IRI="#USA"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R6Q5vAXXk6YZ8OtkR40mqI"/>
+        <Literal>MMC3 Moût Muté au Cognac 1979</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R6Q5vAXXk6YZ8OtkR40mqI"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">803</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R6uagAgyX4jv7iav3OySVV"/>
+        <Literal>E.C. Dahls Lamo Wit</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R6uagAgyX4jv7iav3OySVV"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">43</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R70zBltd4ddyCQ8bYahiA9r"/>
+        <Literal>Antiche Terre Lessini Durello</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R70zBltd4ddyCQ8bYahiA9r"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">150</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R72fbNE1KA02oPASdSKWm5"/>
+        <Literal>Haandbryggeriet Dobbel Wit</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R72fbNE1KA02oPASdSKWm5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">71</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://webprotege.stanford.edu/R7nsj9cgCDlbHOhmtIfyuaI"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7QXqaEYZmsSpWhi3BfrE4Z"/>
+        <Literal>White</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7QXqaEYZmsSpWhi3BfrE4Z"/>
+        <Literal>SQ Sommer Aquavit</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7QXqaEYZmsSpWhi3BfrE4Z"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7SdLZqJeFIcmZmvbgCTYEh"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7SdLZqJeFIcmZmvbgCTYEh"/>
+        <Literal>Highland Park 10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7SdLZqJeFIcmZmvbgCTYEh"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">430</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7mXksDdmqes1xhANl4TLXG"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2016</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7mXksDdmqes1xhANl4TLXG"/>
+        <Literal>Muzard Santenay Premier Cru Maladières 2016</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7mXksDdmqes1xhANl4TLXG"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">341</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7o7f7bDM3dfhr5KVK0p5eN"/>
+        <Literal>Gouden Carolus Triple</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7o7f7bDM3dfhr5KVK0p5eN"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">64</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7tR6Z8Lvwtu9U5JzXKtBp8"/>
+        <Literal>ABK6 Cinnamon &amp; Orange Cognac Liqueur</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R7tR6Z8Lvwtu9U5JzXKtBp8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">452</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R81oe6Og4V6J8Bg0Z1fIXqe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R81oe6Og4V6J8Bg0Z1fIXqe"/>
+        <Literal>Tissot Les Graviers Chardonnay</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R81oe6Og4V6J8Bg0Z1fIXqe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">410</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8E35kowKjfFlxzxAO5eF3L"/>
+        <Literal>Evil Twin Even More Coco Jesus Imperial Stout</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8E35kowKjfFlxzxAO5eF3L"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">94</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8E5wUu4A7oG9CEt2RdLM5F"/>
+        <Literal>Allram Rieslingsekt Brut</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8E5wUu4A7oG9CEt2RdLM5F"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">245</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8e6ZT0qgLRHsNn8OkJVT0w"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2018</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8e6ZT0qgLRHsNn8OkJVT0w"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">219</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8jZxcjXcK77FIoXelRGqtN"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2012</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8jZxcjXcK77FIoXelRGqtN"/>
+        <Literal>Veuve Clicquot Vintage Reserve Brut 2012</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8jZxcjXcK77FIoXelRGqtN"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">610</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8u5Ls6WkbrW2uKp7rY3S80"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1996</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8u5Ls6WkbrW2uKp7rY3S80"/>
+        <Literal>Ch. Saint-Pierre 1996</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8u5Ls6WkbrW2uKp7rY3S80"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">905</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9K78haFjguW8K031DvvCy2"/>
+        <Literal>Amuse Rosé 2016</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9K78haFjguW8K031DvvCy2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">188</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9L06J6AiwPyMOwQsOt0Lid"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9L06J6AiwPyMOwQsOt0Lid"/>
+        <Literal>Markus Molitor Zeltinger Sonnenuhr Riesling Spätlese</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9L06J6AiwPyMOwQsOt0Lid"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">236</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9THVA6UWiHSYa7uuNmBMDr"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2018</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9THVA6UWiHSYa7uuNmBMDr"/>
+        <Literal>Fairview Grenache Noir</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9THVA6UWiHSYa7uuNmBMDr"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">150</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://webprotege.stanford.edu/R7nsj9cgCDlbHOhmtIfyuaI"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9UeGUInex2Ytv2gqN5t2pA"/>
+        <Literal>White</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9UeGUInex2Ytv2gqN5t2pA"/>
+        <Literal>Captain Morgan White Rum</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9UeGUInex2Ytv2gqN5t2pA"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">245</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://webprotege.stanford.edu/R7nsj9cgCDlbHOhmtIfyuaI"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9mMlXK8mrngfmeMiDAMWD9"/>
+        <Literal>Dark</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R9mMlXK8mrngfmeMiDAMWD9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">390</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RB1sVn9OF2y5SqSe6AJo7fJ"/>
+        <Literal>Bourgoin Micro Barrique Cognac</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RB1sVn9OF2y5SqSe6AJo7fJ"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">700</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RB5IO5u7fkpYRZPkUoVhnOy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">70</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://webprotege.stanford.edu/R7nsj9cgCDlbHOhmtIfyuaI"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBF3NxLBrmeMbUslEYPP4ca"/>
+        <Literal>Dark</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBF3NxLBrmeMbUslEYPP4ca"/>
+        <Literal>Deadhead Rum</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBF3NxLBrmeMbUslEYPP4ca"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">710</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBIK7wireRWbN4LdzebvrKO"/>
+        <Literal>St Feuillien Nöel 2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBIK7wireRWbN4LdzebvrKO"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">290</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBPAIAEPDyZmSxOe5V3fnnM"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2012</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBPAIAEPDyZmSxOe5V3fnnM"/>
+        <Literal>Klein Constantia Cabernet Sauvignon 2012</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBPAIAEPDyZmSxOe5V3fnnM"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">260</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBcM7K8zDlmxvQD3fgVHGiA"/>
+        <Literal>De Ranke XX Bitter</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBcM7K8zDlmxvQD3fgVHGiA"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">110</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBurZRDnd5AelioRq1DCYpC"/>
+        <Literal>BrewDog Cocoa Psycho Russian Imperial Stout</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RBurZRDnd5AelioRq1DCYpC"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">110</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RByAUC05frEyIToRFPVwPLT"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RByAUC05frEyIToRFPVwPLT"/>
+        <Literal>Lagavulin Single Malt 16 Years Old</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RByAUC05frEyIToRFPVwPLT"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">730</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://webprotege.stanford.edu/R7nsj9cgCDlbHOhmtIfyuaI"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RC8riNx2TxpaTA9UAWu82GT"/>
+        <Literal>White</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RC8riNx2TxpaTA9UAWu82GT"/>
+        <Literal>Vikingfjord Vodka 50%</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RC8riNx2TxpaTA9UAWu82GT"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">320</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://webprotege.stanford.edu/R7nsj9cgCDlbHOhmtIfyuaI"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCJhfnqA2CbRueTnZBnalae"/>
+        <Literal>Dark</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCJhfnqA2CbRueTnZBnalae"/>
+        <Literal>A. H. Riise Black Barrel Navy Spiced Rum</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCJhfnqA2CbRueTnZBnalae"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">550</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://webprotege.stanford.edu/R7nsj9cgCDlbHOhmtIfyuaI"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCKRCYXAv8PYa5cEzRLXj86"/>
+        <Literal>Dark</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCKRCYXAv8PYa5cEzRLXj86"/>
+        <Literal>That Boutique-y Gin Company Proper Pink Gin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCKRCYXAv8PYa5cEzRLXj86"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">547</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCOLV1j6jDLdaKIZCd8Uu9k"/>
+        <Literal>Erdinger Weissbier Dunkel</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCOLV1j6jDLdaKIZCd8Uu9k"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCWsSIOgTvxcuvTxVlM4yi6"/>
+        <Literal>Lanzerac Rosé</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCWsSIOgTvxcuvTxVlM4yi6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">177</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://webprotege.stanford.edu/R7nsj9cgCDlbHOhmtIfyuaI"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCjuEQhvL0meRIrCoDcah1m"/>
+        <Literal>Dark</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCjuEQhvL0meRIrCoDcah1m"/>
+        <Literal>Plantation Rum Grande Reserve Barbados</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCjuEQhvL0meRIrCoDcah1m"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">380</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCmi5F2d2KCLpUXD1ah9ATH"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2016</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCmi5F2d2KCLpUXD1ah9ATH"/>
+        <Literal>Ornellaia Bianco</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCmi5F2d2KCLpUXD1ah9ATH"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1600</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCrMMJW1kiBmsdo2M7Swvme"/>
+        <Literal>Laphroaig Lore</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCrMMJW1kiBmsdo2M7Swvme"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">999</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCvpiuMdPwjm1iYvCpWL5Dd"/>
+        <Literal>Früh Kölsch</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RCvpiuMdPwjm1iYvCpWL5Dd"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">54</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDAUPyiRRuOWsy6qGBjhRal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://webprotege.stanford.edu/R7nsj9cgCDlbHOhmtIfyuaI"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDGnKD0XiehcQexd5y8gO2z"/>
+        <Literal>White</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDGnKD0XiehcQexd5y8gO2z"/>
+        <Literal>Portage Dry Gin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDGnKD0XiehcQexd5y8gO2z"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">524</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDLyBIFfEgbwUrgRUCFblRk"/>
+        <Literal>MMC1 Moût Muté au Cognac</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDLyBIFfEgbwUrgRUCFblRk"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">503</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDMtfQ3rDSoWgTgktDHxGnf"/>
+        <Literal>Thornbridge Crackendale</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDMtfQ3rDSoWgTgktDHxGnf"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">47</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDNND3hr2iCyqA10GG4W7LO"/>
+        <Literal>Carlow O´Haras Irish Pale Ale</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDNND3hr2iCyqA10GG4W7LO"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">56</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDewqseyfQrL9cAkINcU2T9"/>
+        <Literal>Blue Moon Belgian White</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDewqseyfQrL9cAkINcU2T9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDlEJhDl0rQmn6xSw5Xtqi5"/>
+        <Literal>Meteor Pils</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDlEJhDl0rQmn6xSw5Xtqi5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://webprotege.stanford.edu/R7nsj9cgCDlbHOhmtIfyuaI"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDqgaF24x91xQgaw24E8xHx"/>
+        <Literal>Dark</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDqgaF24x91xQgaw24E8xHx"/>
+        <Literal>Lindheim Farmhouse Ale Saison</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDqgaF24x91xQgaw24E8xHx"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">86</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDs7McnRvfznwyQbmGQ31gx"/>
+        <Literal>Sotra Cognac Petite Champagne Single Cask</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDs7McnRvfznwyQbmGQ31gx"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">979</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDvAGbvlXHB8Oh7UXDT1y19"/>
+        <Literal>Brooklyn Lager</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RDvAGbvlXHB8Oh7UXDT1y19"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">46</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RHo8NLNbRTH3d1bcx6DwYV"/>
+        <Literal>Iron Maiden Trooper Sun and Steel</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RHo8NLNbRTH3d1bcx6DwYV"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://webprotege.stanford.edu/R7nsj9cgCDlbHOhmtIfyuaI"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RIXMkP3GcJzwI2LFcBitXU"/>
+        <Literal>White</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RIXMkP3GcJzwI2LFcBitXU"/>
+        <Literal>Amazonian Gin Company</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RIXMkP3GcJzwI2LFcBitXU"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">650</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RLEvePGeBVTbjGf3VQCMSG"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RLEvePGeBVTbjGf3VQCMSG"/>
+        <Literal>Michelot Bourgogne Pinot Noir 2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RLEvePGeBVTbjGf3VQCMSG"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">225</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RUIHBuAwt60Pe46t0LTtab"/>
+        <Literal>Marco de Bartoli Marsala Superiore 10 Anni</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RUIHBuAwt60Pe46t0LTtab"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">485</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RZ4lQqxG7udC6wnNPZvX7m"/>
+        <Literal>Mack Mikrobryggeri Smoke Stout 2015</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RZ4lQqxG7udC6wnNPZvX7m"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">59</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RZYPO42TtTMPCbECLiYizp"/>
+        <Literal>Oppigårds Amarillo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RZYPO42TtTMPCbECLiYizp"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">44</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/Rh3v5QtneFiXIkOMcpjB5o"/>
+        <Literal>Olivares Pie Franco Dulce Monastrell</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/Rh3v5QtneFiXIkOMcpjB5o"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://webprotege.stanford.edu/R7nsj9cgCDlbHOhmtIfyuaI"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RhU1pW9d85haehz4AKiJvf"/>
+        <Literal>Dark</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RhU1pW9d85haehz4AKiJvf"/>
+        <Literal>Kraken Black Spiced Rum</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RhU1pW9d85haehz4AKiJvf"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">435</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/Ri2vizkiBYevNVP26r9sW3"/>
+        <Literal>Homborsund Vesterled Trippel</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/Ri2vizkiBYevNVP26r9sW3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">68</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/Rn7qKrMzOSBrwbnYNhxBJx"/>
+        <Literal>That Boutique-y Gin Company Spit-Roasted Pineapple Gin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/Rn7qKrMzOSBrwbnYNhxBJx"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">579</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RrpTXl1cKobfRFecjaXNJ"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RrpTXl1cKobfRFecjaXNJ"/>
+        <Literal>C. Moreau Chablis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RrpTXl1cKobfRFecjaXNJ"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">260</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/Rug987h8X4v2VgwBVgpx7P"/>
+        <Literal>ABK6 Cognac XO Renaissance Single Estate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/Rug987h8X4v2VgwBVgpx7P"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RvVTjFCGQt0VHX5RbTueJi"/>
+        <Literal>La Trappe Bockbier Trappistenbier</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/RvVTjFCGQt0VHX5RbTueJi"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">120</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Bulleit_Kentucky_Straight_Bourbon"/>
+        <Literal>Bulleit Kentucky Straight Bourbon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="#Bulleit_Kentucky_Straight_Bourbon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">400</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Caol_Ila_12"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Caol_Ila_12"/>
+        <Literal>Caol ila 12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Price"/>
+        <NamedIndividual IRI="#Caol_Ila_12"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">530</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/R7xvMm6KH7eyZySftZ4c0oG"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RBVMdECIshy9AOJMV1DzxrA"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/R7xvMm6KH7eyZySftZ4c0oG"/>
+        <Class IRI="#Regions"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/R7xvMm6KH7eyZySftZ4c0oG"/>
+        <Class IRI="#Lands"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r"/>
+        <Class IRI="#Lands"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Comes_from"/>
+        <Class IRI="#Regions"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://webprotege.stanford.edu/R96LxH1ZEpi3nRGpA52nGci"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Price"/>
+        <Class IRI="#Whiskey"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://webprotege.stanford.edu/R7nsj9cgCDlbHOhmtIfyuaI"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://webprotege.stanford.edu/R96LxH1ZEpi3nRGpA52nGci"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://webprotege.stanford.edu/RD0dG30CEQQ8526DYKtAlzA"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Age"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Price"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R59GUhTfxhtT6l5Hr8MIdT</IRI>
+        <Literal xml:lang="en">Arbois</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R6Q5vAXXk6YZ8OtkR40mqI</IRI>
+        <Literal xml:lang="en">MMC3 Moût Muté au Cognac 1979</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R6uagAgyX4jv7iav3OySVV</IRI>
+        <Literal xml:lang="en">E.C. Dahls Lamo Wit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R70zBltd4ddyCQ8bYahiA9r</IRI>
+        <Literal xml:lang="en">Antiche Terre Lessini Durello</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R71laDNmsRoneJrVwjLPQbB</IRI>
+        <Literal xml:lang="en">Burgundy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R72fbNE1KA02oPASdSKWm5</IRI>
+        <Literal xml:lang="en">Haandbryggeriet Dobbel Wit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R78CZPAOQWrBFLZq9LaEv70</IRI>
+        <Literal xml:lang="en">Canada</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7M9oohfAMHh1iwOYa1UL3b</IRI>
+        <Literal xml:lang="en">England</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7QXqaEYZmsSpWhi3BfrE4Z</IRI>
+        <Literal xml:lang="en">SQ Sommer Aquavit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7SdLZqJeFIcmZmvbgCTYEh</IRI>
+        <Literal xml:lang="en">Highland Park 10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7aACIqwcp3J8c3BDgVket4</IRI>
+        <Literal xml:lang="en">Greece</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7l3h4HsR6yhvksKAlNZQbo</IRI>
+        <Literal xml:lang="en">Spain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7mXksDdmqes1xhANl4TLXG</IRI>
+        <Literal xml:lang="en">Muzard Santenay Premier Cru Maladières 2016</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7nsj9cgCDlbHOhmtIfyuaI</IRI>
+        <Literal xml:lang="en">Colour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7o7f7bDM3dfhr5KVK0p5eN</IRI>
+        <Literal xml:lang="en">Gouden Carolus Triple</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7r4jMh8e3Irk7EXiU7NBQH</IRI>
+        <Literal xml:lang="en">Champagne</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7tR6Z8Lvwtu9U5JzXKtBp8</IRI>
+        <Literal xml:lang="en">ABK6 Cinnamon &amp; Orange Cognac Liqueur</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7xvMm6KH7eyZySftZ4c0oG</IRI>
+        <Literal xml:lang="en">Is_in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R81oe6Og4V6J8Bg0Z1fIXqe</IRI>
+        <Literal xml:lang="en">Tissot Les Graviers Chardonnay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R88MMoID88veLamr67ZN6v2</IRI>
+        <Literal xml:lang="en">Rheingau</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8E35kowKjfFlxzxAO5eF3L</IRI>
+        <Literal xml:lang="en">Evil Twin Even More Coco Jesus Imperial Stout</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8E5wUu4A7oG9CEt2RdLM5F</IRI>
+        <Literal xml:lang="en">Allram Rieslingsekt Brut</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8e6ZT0qgLRHsNn8OkJVT0w</IRI>
+        <Literal xml:lang="en">PJ Kühn Rheinschiefer Riesling Trocken</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8jZxcjXcK77FIoXelRGqtN</IRI>
+        <Literal xml:lang="en">Veuve Clicquot Vintage Reserve Brut 2012</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8pr3Ro8IlruptCOaK1pYOh</IRI>
+        <Literal xml:lang="en">Peru</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8u5Ls6WkbrW2uKp7rY3S80</IRI>
+        <Literal xml:lang="en">Ch. Saint-Pierre 1996</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R94p49DAyA9cZa8Zlz1hUzw</IRI>
+        <Literal xml:lang="en">Ireland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R96LxH1ZEpi3nRGpA52nGci</IRI>
+        <Literal xml:lang="en">Fits_with</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R994P74kYBsL4w6Eb2hzD3P</IRI>
+        <Literal xml:lang="en">Tuscany</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9K78haFjguW8K031DvvCy2</IRI>
+        <Literal xml:lang="en">Amuse Rosé 2016</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9L06J6AiwPyMOwQsOt0Lid</IRI>
+        <Literal xml:lang="en">Markus Molitor Zeltinger Sonnenuhr Riesling Spätlese</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9THVA6UWiHSYa7uuNmBMDr</IRI>
+        <Literal xml:lang="en">Fairview Grenache Noir</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9UeGUInex2Ytv2gqN5t2pA</IRI>
+        <Literal xml:lang="en">Captain Morgan White Rum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9YIHmKVnFBN777QIeAkryv</IRI>
+        <Literal xml:lang="en">Netherlands</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9mMlXK8mrngfmeMiDAMWD9</IRI>
+        <Literal xml:lang="en">Mount Gay Eclipse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RB1nTos4Fzu8lUpFisqSmx5</IRI>
+        <Literal xml:lang="en">Mosel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RB1sVn9OF2y5SqSe6AJo7fJ</IRI>
+        <Literal xml:lang="en">Bourgoin Micro Barrique Cognac</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RB5IO5u7fkpYRZPkUoVhnOy</IRI>
+        <Literal xml:lang="en">Ballast Point Moscow Mule Ale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RB7sXYOxbuZK3iUMtnhSbt5</IRI>
+        <Literal xml:lang="en">Buskerud</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBF3NxLBrmeMbUslEYPP4ca</IRI>
+        <Literal xml:lang="en">Deadhead Rum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBIK7wireRWbN4LdzebvrKO</IRI>
+        <Literal xml:lang="en">St Feuillien Nöel 2017</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBNysvmCwdGsvLxYJ2OPUrz</IRI>
+        <Literal xml:lang="en">Austria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBPAIAEPDyZmSxOe5V3fnnM</IRI>
+        <Literal xml:lang="en">Klein Constantia Cabernet Sauvignon 2012</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBTwk28oETYCkdDURuq4m1h</IRI>
+        <Literal xml:lang="en">Norway</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBVMdECIshy9AOJMV1DzxrA</IRI>
+        <Literal>Variant of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBcM7K8zDlmxvQD3fgVHGiA</IRI>
+        <Literal xml:lang="en">De Ranke XX Bitter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBj5G3swuV34xK11cNk9Ngh</IRI>
+        <Literal xml:lang="en">Italy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBurZRDnd5AelioRq1DCYpC</IRI>
+        <Literal xml:lang="en">BrewDog Cocoa Psycho Russian Imperial Stout</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RByAUC05frEyIToRFPVwPLT</IRI>
+        <Literal xml:lang="en">Lagavulin Single Malt 16 Years Old</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RC0BP1y4oxYEfXiLWpIMews</IRI>
+        <Literal xml:lang="en">Barbados</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RC8riNx2TxpaTA9UAWu82GT</IRI>
+        <Literal xml:lang="en">Vikingfjord Vodka 50%</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCFHdWttDSSol0KCQ7SB3qa</IRI>
+        <Literal xml:lang="en">California</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCJhfnqA2CbRueTnZBnalae</IRI>
+        <Literal xml:lang="en">A. H. Riise Black Barrel Navy Spiced Rum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCKRCYXAv8PYa5cEzRLXj86</IRI>
+        <Literal xml:lang="en">That Boutique-y Gin Company Proper Pink Gin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCOLV1j6jDLdaKIZCd8Uu9k</IRI>
+        <Literal xml:lang="en">Erdinger Weissbier Dunkel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCVN2XEsB6QgLcSfkWHy7KW</IRI>
+        <Literal xml:lang="en">France</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCWsSIOgTvxcuvTxVlM4yi6</IRI>
+        <Literal xml:lang="en">Lanzerac Rosé</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCjuEQhvL0meRIrCoDcah1m</IRI>
+        <Literal xml:lang="en">Plantation Rum Grande Reserve Barbados</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCmi5F2d2KCLpUXD1ah9ATH</IRI>
+        <Literal xml:lang="en">Ornellaia Bianco</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCqJMm89BiioCRv4gGVLXK</IRI>
+        <Literal xml:lang="en">Bordeaux</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCrMMJW1kiBmsdo2M7Swvme</IRI>
+        <Literal xml:lang="en">Laphroaig Lore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCvpiuMdPwjm1iYvCpWL5Dd</IRI>
+        <Literal xml:lang="en">Früh Kölsch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RD0dG30CEQQ8526DYKtAlzA</IRI>
+        <Literal xml:lang="en">Taste</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RD2KLuE4Hw8ncCOiq4E7LS9</IRI>
+        <Literal xml:lang="en">Mexico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDAUPyiRRuOWsy6qGBjhRal</IRI>
+        <Literal xml:lang="en">Haandbryggeriet Norwegian Wood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDGSp5ZiOz8hAe3fMrZSGXS</IRI>
+        <Literal xml:lang="en">Sweden</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDGnKD0XiehcQexd5y8gO2z</IRI>
+        <Literal xml:lang="en">Portage Dry Gin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDLyBIFfEgbwUrgRUCFblRk</IRI>
+        <Literal xml:lang="en">MMC1 Moût Muté au Cognac</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDMtfQ3rDSoWgTgktDHxGnf</IRI>
+        <Literal xml:lang="en">Thornbridge Crackendale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDNND3hr2iCyqA10GG4W7LO</IRI>
+        <Literal xml:lang="en">Carlow O´Haras Irish Pale Ale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDbstv55MG0bhXmFw1Y2D6r</IRI>
+        <Literal xml:lang="en">Comes_from_country</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDewqseyfQrL9cAkINcU2T9</IRI>
+        <Literal xml:lang="en">Blue Moon Belgian White</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDjcYhhgsR76vC9tDPLTL1F</IRI>
+        <Literal xml:lang="en">Belgium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDlEJhDl0rQmn6xSw5Xtqi5</IRI>
+        <Literal xml:lang="en">Meteor Pils</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDqgaF24x91xQgaw24E8xHx</IRI>
+        <Literal xml:lang="en">Lindheim Farmhouse Ale Saison</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDs7McnRvfznwyQbmGQ31gx</IRI>
+        <Literal xml:lang="en">Sotra Cognac Petite Champagne Single Cask</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDvAGbvlXHB8Oh7UXDT1y19</IRI>
+        <Literal xml:lang="en">Brooklyn Lager</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDymnJtNyl9AFnowYP1mgEE</IRI>
+        <Literal xml:lang="en">South Africa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RFLaPDGSqCvzEmoelBLCVy</IRI>
+        <Literal xml:lang="en">Denmark</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RGMIE3IUC8MHCllV9ZB1By</IRI>
+        <Literal xml:lang="en">Veneto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RHo8NLNbRTH3d1bcx6DwYV</IRI>
+        <Literal xml:lang="en">Iron Maiden Trooper Sun and Steel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RIXMkP3GcJzwI2LFcBitXU</IRI>
+        <Literal xml:lang="en">Amazonian Gin Company</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RLEvePGeBVTbjGf3VQCMSG</IRI>
+        <Literal xml:lang="en">Michelot Bourgogne Pinot Noir 2017</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RUIHBuAwt60Pe46t0LTtab</IRI>
+        <Literal xml:lang="en">Marco de Bartoli Marsala Superiore 10 Anni</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RXKqW9E301hjPf8kZlMc8y</IRI>
+        <Literal xml:lang="en">Germany</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RZ4lQqxG7udC6wnNPZvX7m</IRI>
+        <Literal xml:lang="en">Mack Mikrobryggeri Smoke Stout 2015</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RZYPO42TtTMPCbECLiYizp</IRI>
+        <Literal xml:lang="en">Oppigårds Amarillo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/Rh3v5QtneFiXIkOMcpjB5o</IRI>
+        <Literal xml:lang="en">Olivares Pie Franco Dulce Monastrell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RhU1pW9d85haehz4AKiJvf</IRI>
+        <Literal xml:lang="en">Kraken Black Spiced Rum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/Ri2vizkiBYevNVP26r9sW3</IRI>
+        <Literal xml:lang="en">Homborsund Vesterled Trippel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/Rn7qKrMzOSBrwbnYNhxBJx</IRI>
+        <Literal xml:lang="en">That Boutique-y Gin Company Spit-Roasted Pineapple Gin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/Rph60nCXi1tvqsAhWoJ16k</IRI>
+        <Literal xml:lang="en">Lowland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RrpTXl1cKobfRFecjaXNJ</IRI>
+        <Literal xml:lang="en">C. Moreau Chablis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/Rug987h8X4v2VgwBVgpx7P</IRI>
+        <Literal xml:lang="en">ABK6 Cognac XO Renaissance Single Estate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RvRb72pRlHIpbJBEUhUZK9</IRI>
+        <Literal xml:lang="en">Highland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RvVTjFCGQt0VHX5RbTueJi</IRI>
+        <Literal xml:lang="en">La Trappe Bockbier Trappistenbier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Alcoholic_beverages</IRI>
+        <Literal xml:lang="en">Alcoholic_beverages</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Aquavit</IRI>
+        <Literal xml:lang="en">Aquavit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Beer</IRI>
+        <Literal xml:lang="en">Beer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bourbon</IRI>
+        <Literal>Bourbon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bulleit_Kentucky_Straight_Bourbon</IRI>
+        <Literal>Bulleit Kentucky Straight Bourbon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Caol_Ila_12</IRI>
+        <Literal>Caol  Ila 12</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cognac</IRI>
+        <Literal xml:lang="en">Cognac</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Comes_from</IRI>
+        <Literal>Comes_from_region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fortified_wine</IRI>
+        <Literal xml:lang="en">Fortified_wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fruit_wine</IRI>
+        <Literal xml:lang="en">Fruit_wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Gin</IRI>
+        <Literal xml:lang="en">Gin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Islai</IRI>
+        <Literal>Islai</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kentucky</IRI>
+        <Literal>Kentucky</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lands</IRI>
+        <Literal>Country</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Light_ale</IRI>
+        <Literal>Light_ale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Light_lager</IRI>
+        <Literal xml:lang="en">Light_lager</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Liqour</IRI>
+        <Literal xml:lang="en">Liqour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Monastery_style</IRI>
+        <Literal xml:lang="en">Monastery_style</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pale_ale</IRI>
+        <Literal xml:lang="en">Pale_ale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Porter_stout</IRI>
+        <Literal xml:lang="en">Porter_stout</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Red_wine</IRI>
+        <Literal xml:lang="en">Red_wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Regions</IRI>
+        <Literal>Region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rosè_wine</IRI>
+        <Literal xml:lang="en">Rosé_wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rum</IRI>
+        <Literal xml:lang="en">Rum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Saison_farmhouse_ale</IRI>
+        <Literal xml:lang="en">Saison_farmhouse_ale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Scotch</IRI>
+        <Literal>Scotch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Scotland</IRI>
+        <Literal>Scotland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sparkling_wine</IRI>
+        <Literal xml:lang="en">Sparkling_wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Special</IRI>
+        <Literal xml:lang="en">Special</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#USA</IRI>
+        <Literal>USA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Vodka</IRI>
+        <Literal xml:lang="en">Vodka</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Wheat_beer</IRI>
+        <Literal xml:lang="en">Wheat_beer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Whiskey</IRI>
+        <Literal>Whisky</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#White_wine</IRI>
+        <Literal xml:lang="en">White_wine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Wine</IRI>
+        <Literal xml:lang="en">Wine</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
